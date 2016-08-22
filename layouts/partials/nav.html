@@ -20,7 +20,7 @@
 
                 {{ "<!-- Languages dropdown menu -->" | safeHTML }}
                 <li class="dropdown">
-                    <b class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <b id="languagemenu" class="dropdown-toggle" data-toggle="dropdown" href="#">
                         {{ with .Site.Params.navigation.language }}{{ . | markdownify }}{{ end }}
                         <i class="fa fa-chevron-down" aria-hidden="true" ></i>
                     </b>
