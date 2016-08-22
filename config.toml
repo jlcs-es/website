@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.jlcs.com/"
+baseurl = "http://www.jlcs.es/"
 languageCode = "es-ES"
 title = "JLCS - José Luis Cánovas Sánchez"
 theme = "hugo-agency-theme"
