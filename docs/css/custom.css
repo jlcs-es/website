@@ -4,11 +4,6 @@
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-
-#header-bg {
-    filter: brightness(50%);
-}
-
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;

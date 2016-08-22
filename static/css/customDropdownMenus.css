@@ -1,5 +1,6 @@
 #languagemenu {
     color: #fec503;
+    cursor: pointer;
 }
 
 .dropdown-menu {
