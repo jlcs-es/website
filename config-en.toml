@@ -1,13 +1,14 @@
 # Site settings
-baseurl = "http://www.jlcs.es/"
-languageCode = "es-ES"
-title = "JLCS - Matemático e Ingeniero Informático"
+baseurl = "http://www.jlcs.es/en"
+languageCode = "en"
+title = "JLCS - Mathematician & Computer Scientist"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-82888834-1"
 
-dataDir = "data"
-publishdir = "docs"
+dataDir = "data-en"
+publishdir = "docs/en"
+
 
 [params]
 
@@ -21,7 +22,7 @@ publishdir = "docs"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "José Luis Cánovas Sánchez"
-	description = "Matemático e Ingeniero Informático"
+	description = "Mathematician & Computer Scientist"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -44,12 +45,12 @@ publishdir = "docs"
 	# Navigation
 	[params.navigation]
 		brand = "JLCS"
-		services = "Estudios"
-		portfolio = "Proyectos"
-		about = "Eventos"
+		services = "Studies"
+		portfolio = "Projects"
+		about = "Evento"
 		team = "Team"
-		contact = "Contacto"
-		language = "Idiomas"
+		contact = "Contact"
+		language = "Languages"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -83,66 +84,66 @@ publishdir = "docs"
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "José Luis Cánovas Sánchez"
-		subtitle = "Matemático e Ingeniero Informático"
+		subtitle = "Mathematician & Computer Scientist"
 		buttonText = "<i class=\"fa fa-chevron-down fa-5x\" aria-hidden=\"true\"></i>"
 
 
 	# Services section
 	[params.services]
         enable = true
-		title = "Estudios"
+		title = "Studies"
 		subtitle = ""
 
         [[params.services.row]]
 
             [[params.services.row.list]]
                 icon = "fa-superscript"
-                title = "Grado en Matemáticas"
-                description = "Por la [Facultad de Matemáticas](http://www.um.es/web/matematicas/)  de la Universidad de Murcia"
+                title = "Degree in Mathematics"
+                description = "By the [Faculty of Mathematics](http://www.um.es/web/matematicas/) at the University of Murcia"
 
             [[params.services.row.list]]
                 icon = "fa-terminal"
-                title = "Grado en Informática"
-                description = "Por la [Facultad de Informática](http://www.um.es/fac_info/)  de la Universidad de Murcia"
+                title = "Degree in Computer Science"
+                description = "By the [Faculty of Computer Science](http://www.um.es/fac_info/)  de la Universidad de Murcia"
 
 			[[params.services.row.list]]
 	            icon = "fa-university"
-	            title = "Programación Conjunta de Estudios Oficiales Grado en Matemáticas y Grado en Ingeniería Informática"
-	            description = "Por la [Universidad de Murcia](http://www.um.es/web/matematicas/contenido/estudios/grados/pes)"
+	            title = "Double degree program in Mathematics and Computer Science"
+	            description = "At the [University of Murcia](http://www.um.es/web/matematicas/contenido/estudios/grados/pes)"
 
 			[[params.services.row.list]]
 				icon = "fa-gbp"
-				title = "Inglés avanzado"
-				description = "Trabajando a diario con el idioma"
+				title = "Advanced English"
+				description = "Working everyday with the language"
 
 			[[params.services.row.list]]
 				icon = "fa-language"
-				title = "Japonés básico"
-				description = "Con el profesor [José Antonio Martínez Oliva](https://www.facebook.com/profile.php?id=100007273591244)"
+				title = "Basic Japanese"
+				description = "With [José Antonio Martínez Oliva](https://www.facebook.com/profile.php?id=100007273591244) sensei"
 
 
 	# Portfolio section
 	[params.portfolio]
-        enable = false
+        enable = true
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
-		title = "Proyectos"
-		subtitle = "Exposición de algunos proyectos personales o profesionales"
+		title = "Projects"
+		subtitle = "Some personal or professional projects"
 
 		[params.portfolio.modal]
-            client = "Cliente"
-            date = "Fecha"
-            category = "Categoría"
-            buttonText = "Cerrar"
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close"
 
 
     # About section
 	[params.about]
         enable = true
-		title = "Eventos"
-		subtitle = "Momentos destacados de mi carrera"
+		title = "Events"
+		subtitle = "Featured moments of my career"
 		endpoint = "<i class=\"fa fa-cog fa-spin fa-4x fa-fw\"></i>"
 
 		# The events will be listed from the top to the bottom.
@@ -152,13 +153,13 @@ publishdir = "docs"
 		[[params.about.events]]
 			img = "umulogo.png"
 			date = "2011-2017"
-			title = "Universidad de Murcia"
-			description = "Estudios del PCEO de Grado en Matemáticas y Grado en Ingeniería Informática"
+			title = "University of Murcia"
+			description = "Degrees in Mathematics and Computer Science"
 
 		[[params.about.events]]
 			img = "iot.png"
 			date = "2016-2017"
-			title = "Becario en Tecnologías de la Información"
+			title = "Scholarship in Information Technology"
 			description = "[Privacy Preserving Identity Management for IoT](https://www.ibm.com/blogs/research/2016/01/ibms-privacy-friendly-identity-mixer-meets-the-internet-of-things/) **IBM** - Universidad de Murcia"
 
 
@@ -227,7 +228,7 @@ publishdir = "docs"
 	# Contact section
 	[params.contact]
         enable = false
-		title = "Contacto"
+		title = "Contact"
 		subtitle  = "Envíame un correo o mensaje directo"
 		buttonText = "Send message"
 
