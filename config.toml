@@ -8,6 +8,7 @@ googleAnalytics = "UA-82888834-1"
 
 dataDir = "data"
 publishdir = "docs"
+relativeURLs = true
 
 [params]
 

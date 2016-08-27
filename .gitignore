@@ -2,12 +2,12 @@
 .DS_Store
 
 # Ignore everything in docs/en
-docs/en/*
+#docs/en/*
 
 # But not these files...
-!docs/en/index.html
-!docs/en/index.xml
-!docs/en/sitemap.xml
+#!docs/en/index.html
+#!docs/en/index.xml
+#!docs/en/sitemap.xml
 # etc...
 
 # ...even if they are in subdirectories

@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.jlcs.es/"
+baseurl = "http://www.jlcs.es/en"
 languageCode = "en"
 title = "JLCS - Mathematician & Computer Scientist"
 theme = "hugo-agency-theme"
@@ -8,6 +8,7 @@ googleAnalytics = "UA-82888834-1"
 
 dataDir = "data-en"
 publishdir = "docs/en"
+relativeURLs = true
 
 #
 # TODO: quitar de baseurl el /en, dejarlo en publishdir, y con
@@ -113,8 +114,8 @@ publishdir = "docs/en"
 
 			[[params.services.row.list]]
 	            icon = "fa-university"
-	            title = "Double degree program in Mathematics and Computer Science"
-	            description = "At the [University of Murcia](http://www.um.es/web/matematicas/contenido/estudios/grados/pes)"
+	            title = "Simultaneous degree program in Mathematics and Computer Science by the University of Murcia"
+	            description = "[Program](http://www.um.es/web/matematicas/contenido/estudios/grados/pes)"
 
 			[[params.services.row.list]]
 				icon = "fa-gbp"
