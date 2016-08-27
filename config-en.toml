@@ -9,6 +9,11 @@ googleAnalytics = "UA-82888834-1"
 dataDir = "data-en"
 publishdir = "docs/en"
 
+#
+# TODO: quitar de baseurl el /en, dejarlo en publishdir, y con
+#       gitignore sólo dejar el .index generado. Comprobar que
+#	    se referencia todo a los datos estáticos de la raíz.
+#
 
 [params]
 
