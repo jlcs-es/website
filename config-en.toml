@@ -75,12 +75,12 @@ relativeURLs = true
     #     weight = 10
 
 	[[menu.language]]
-		url = "/en"
+		url = "http://www.jlcs.es/en/"
 		name = "English"
 		weight = 10
 
 	[[menu.language]]
-		url = "/"
+		url = "http://www.jlcs.es/"
 		name = "Español"
 		weight = 11
 
