@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.jlcs.es/"
+baseurl = "https://www.jlcs.es/"
 languageCode = "es-ES"
 title = "JLCS - Matemático e Ingeniero Informático"
 theme = "hugo-agency-theme"
